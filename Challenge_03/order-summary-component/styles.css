@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./images/pattern-background.svg");
+  background-repeat: no-repeat;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  width: 380px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.plan {
+  width: 340px;
+  height: 80px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content {
+  text-align: center;
+}
+button {
+  width: 340px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: 2px solid hsl(245, 75%, 52%);
+  color: white;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 8px 8px -4px hsl(245, 75%, 52%);
+  cursor: pointer;
+
+  /* box-shadow: 10px 10px 5px hsl(245, 75%, 52%); */
+}
+button:hover {
+  transform: scale(1.1);
+}
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: hsl(245, 50%, 42%);
+}
