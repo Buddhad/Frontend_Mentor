@@ -43,8 +43,8 @@ body {
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
 }
 .attribution {
   font-size: 11px;
