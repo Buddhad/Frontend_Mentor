@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  ---Dark-cyan: hsl(185, 75%, 39%);
+  ---Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  ---Dark-grayish-blue: hsl(227, 10%, 46%);
+  ---Dark-gray: hsl(0, 0%, 59%);
+  ---Font-size: 18px;
+  ---font-family: "Kumbh Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(---Dark-cyan);
+  font-family: var(---font-family);
+  background-image: url(./images/bacground.png);
+  background-repeat: no-repeat;
+}
+.profile-card {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px var(---Dark-grayish-blue);
+}
+.profile-card__image img.hero {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.center-card img.victor_img {
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.info h3.head-3 {
+  font-size: var(---Font-size);
+  font-weight: bold;
+  text-align: center;
+}
+.info h5.head-4 {
+  font-size: var(---Font-size);
+  text-align: center;
+  color: var(---Dark-grayish-blue);
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+span {
+  color: var(---Dark-grayish-blue);
+  font-weight: 400;
+}
+.profile-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.follow p,
+.like p,
+.photo p {
+  font-size: var(---Font-size);
+  color: var(---Dark-grayish-blue);
+  margin-top: 10px;
+  font-weight: 400;
+}
+@media screen and (max-width: 480px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(---Dark-cyan);
+    font-family: var(---font-family);
+    padding: auto;
+  }
+  .profile-card {
+    width: 400px;
+    height: 420px;
+  }
+  .center-card img.victor_img {
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  .attribution {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+  }
+}
