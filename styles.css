@@ -74,7 +74,16 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.six {
+  background-color: #a8c0ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.seven {
+  background-color: #00b09b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .face2 {
   transition: 0.5s;
 }
@@ -115,5 +124,13 @@ h2 {
 }
 .card:nth-child(5) .face.face2 {
   background-image: linear-gradient(90deg, #b7f8db 0%, #50a7c2 100%);
+  border-radius: 15px;
+}
+.card:nth-child(6) .face.face2 {
+  background-image: linear-gradient(90deg, #a8c0ff 0%, #3f2b96 100%);
+  border-radius: 15px;
+}
+.card:nth-child(7) .face.face2 {
+  background-image: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
   border-radius: 15px;
 }
