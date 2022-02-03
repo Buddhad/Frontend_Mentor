@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+:root {
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+  --Font-size: 15px;
+  --font-family: "Inter", sans-serif;
+  --font-family1: "Lexend Deca", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Very-dark-blue);
+}
+
+.card {
+  width: 80%;
+  height: 100%;
+  background-color: var(--Dark-desaturated-blue);
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
+  font-family: var(--font-family);
+}
+.content {
+  text-align: center;
+  font-weight: 400;
+}
+.content p {
+  color: var(--Slightly-transparent-white);
+}
+.card_footer,
+.companies,
+.templates,
+.queries p {
+  text-transform: uppercase;
+}
+.content p.para {
+  margin-top: 50px;
+  font-weight: 400;
+}
+.card_footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.card img.hero {
+  border-radius: 0 10px 10px 0;
+  margin-left: 50px;
+}
+.attribution {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: aqua;
+}
+span {
+  color: var(--Soft-violet);
+}
+.attribution a {
+  color: white;
+}
