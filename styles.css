@@ -84,6 +84,11 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.eight {
+  background-color: #00b09b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .face2 {
   transition: 0.5s;
 }
@@ -132,5 +137,11 @@ h2 {
 }
 .card:nth-child(7) .face.face2 {
   background-image: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+  border-radius: 15px;
+}
+.card:nth-child(8) .face.face2 {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 15px;
 }
