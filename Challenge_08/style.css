@@ -23,7 +23,7 @@ body{
     border-radius: 15px;
     box-shadow: 0 0 5px rgba(0, 0 , 0, 0.3);
     overflow: hidden;
-    cursor:url("/Frontend_Mentor/Challenge_08/img/pika.png"),auto;
+    cursor:url("../Frontend_Mentor/Challenge_08/img/pika.png"),auto;
 }
 h2{
     margin: 0;
