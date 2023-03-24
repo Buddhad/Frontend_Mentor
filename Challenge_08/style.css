@@ -23,12 +23,15 @@ body{
     border-radius: 15px;
     box-shadow: 0 0 5px rgba(0, 0 , 0, 0.3);
     overflow: hidden;
-    cursor:url("../Frontend_Mentor/Challenge_08/img/pika.png"),auto;
+    cursor:url("../Challenge_08/img/pika.png"),auto;
 }
 h2{
     margin: 0;
     text-align: center;
     padding: 1rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .quiz_header{
     padding: 2rem;
